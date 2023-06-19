@@ -78,7 +78,7 @@ def main():
     if source[-1] != '\n':
         source = source + '\n'
 
-    outfile.write('@ ' + time.strftime('%c') + '%34s' % 'JIAQI CHEN\n')
+    outfile.write('@ ' + time.strftime('%c') + '%34s' % 'CHEN\n')
     outfile.write('@ ' + 'Compiler    = ' + sys.argv[0] + '\n')
     outfile.write('@ ' + 'Input file  = ' + sys.argv[1] + '\n')
     outfile.write('@ ' + 'Output file = ' + sys.argv[2] + '\n')
